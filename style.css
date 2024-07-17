@@ -1,0 +1,261 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: "Margarine", sans-serif;
+}
+#container{
+    width: 100%;
+    height: 100vh;
+    position: relative;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+    background-color: black;
+}
+.logo{
+    width: 150px;
+}
+.list-items{
+    list-style: none;
+    display: inline;
+    margin: 0px 30px;
+}
+.links{
+    font-family: "Acme", sans-serif;
+    text-decoration: none;
+    font-weight: 700;
+    color: white;
+    font-size: 20px;
+}
+.links:hover{
+    text-decoration: underline;
+    color: rgb(248, 3, 3);
+}
+.pic{
+    width: 100%;
+}
+#name{
+    font-size: 80px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    margin-top: -400px;
+}
+#day{
+    display: flex;
+    justify-content: center;
+    color: white;
+    margin-bottom: 250px;
+    
+}
+.img{
+    display: flex;
+    justify-content: center;
+    background-color: darkslategrey;
+}
+#img1{
+    width: 275px;
+    height: 250px;
+}
+#img2{
+    width: 275px;
+    height: 250px;
+    margin-top: -50px;
+}
+#img3{
+    width: 275px;
+    height: 250px;
+}
+.list{
+    display: flex;
+    justify-content: center;
+    margin-top: -25px;
+    color: white;
+    font-size: 25px;
+}
+#l1{
+    margin-top: -10px;
+    margin-right: 75px;
+    font-family: "Acme", sans-serif;
+}
+#l2{
+    margin-top: -60px;
+    margin-right: 100px;
+    color: black;
+    font-family: "Acme", sans-serif;
+}
+#l3{
+    margin-top: -10px;
+    font-family: "Acme", sans-serif;
+}   
+.more{
+    text-decoration: none;
+    background-color: dimgrey;
+    color: white;
+    padding: 10px;
+    border-radius: 30px;
+    display: inline-block;
+}
+#more-link{
+    margin-top: -300px;
+    margin-bottom: 250px;
+
+}
+#more1{
+    margin-left: 450px;
+    margin-right: 225px;
+}
+#more2{
+    margin-right: 210px;
+}
+
+.heading{
+    font-family: "Acme", sans-serif;
+    font-weight: 700;
+    font-size: 75px;
+    display: flex;
+    justify-content: center;
+}
+#head2{
+    margin-top: 600px;
+}
+#head3{
+    margin-top: 600px;
+}
+.indian-food{
+    width: 300px;
+    height: 350px;
+    float: left;
+    margin: 20px 10px;
+    margin-left: 150px;
+    margin-top: 50px;
+}
+#indian-img{
+    width: 100%;
+}
+#btn{
+    text-align: right;
+    background-color: dimgrey;
+    color: white;
+    border-radius: 30px;
+    padding: 10px;
+    display: inline-block;
+    text-decoration: none;
+    margin-top: 30px;
+    margin-left: 200px;
+}
+.American-food{
+    width: 300px;
+    height: 475px;
+    float: left;
+    margin: 20px 10px;
+    margin-left: 150px;
+    background-color: goldenrod;
+    margin-top: 50px;
+}
+#American-img{
+    width: 100%;
+}
+.Burger{
+    width: 300px;
+    height: 350px;
+    float: left;
+    margin: 20px 10px;
+    margin-left: 150px;
+    margin-top: 50px;
+}
+#Burger-img{
+    width: 100%;
+}
+.youtube{
+    margin-top: 550px;
+    background-color: honeydew;
+}
+#food-img{
+    margin-top: 30px;
+    width: 614px;
+    height: 355px;
+    margin-left: 10px;
+}
+#about{
+    margin-top: -300px;
+    font-family: "Acme", sans-serif;
+}
+#para1{
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+.para{
+    margin-left: 30px;
+}
+.latest{
+    font-family: "Acme", sans-serif;
+    margin-left: 850px; 
+}
+#last1{
+    margin-top: -290px;
+    margin-left: 1050px;
+}
+#last2{
+    margin-left: 1000px;
+}
+.footer{
+    border: solid;
+    height: 350px;
+    background-color: black;
+}
+.foot-good{
+   margin-top: 100px;
+   margin-left: 115px;
+   font-family: "Acme", sans-serif;
+   color: white;
+}
+.foot-addr{
+   margin-left: 100px;
+   font-family: "Acme", sans-serif;
+   color: white;
+}
+#foot1{
+    margin-left: 120px;
+}
+.foot-follow{
+    text-align: center;
+    margin-top: -100px;
+    font-family: "Acme", sans-serif;
+    color: white;
+}
+#icon1{
+    margin-left: 665px;
+    margin-right: 60px;
+    margin-top: 20px;
+    color: white;
+}
+#icon2{
+    margin-right: 60px;
+    color: white;
+}
+#icon3{
+    color: white;
+}
+.foot-join{
+    text-align: right;
+    margin-right: 100px;
+    margin-top: -75px;
+    font-family: "Acme", sans-serif;
+    color: white;
+}
+#text{
+    margin-left: 1150px;
+    margin-top: 20px;
+    margin-right: 20px;
+    width: 250px;
+}
+#button{
+    background-color: black;
+    color: wheat;
+    font-family: "Acme", sans-serif;
+}
